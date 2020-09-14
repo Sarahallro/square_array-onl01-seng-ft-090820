@@ -2,8 +2,7 @@ def square_array(array)
   squared_array []
   array.each do |number|
     squared_num = number ** 2
-    squared_array.push (squared_num)
-    puts "#{array}#"
+    array.push (squared_num)
   end
-  squared_num
+  squared_array
 end
