@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  array []
+  array.each do |numbers|
+    sum = numbers * numbers
+    array << sum
+    puts "#{array}#"
+  end
+  array
 end
